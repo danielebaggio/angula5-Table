@@ -72,7 +72,7 @@ export class PaginationComponent implements OnInit {
     var keys = Object.keys(this.dataTable[0]);
     this.filteredItems = [];
     if(this.filterValue != ""){
-      this.filteredItems = this.dataTable.filter(e => keys.some(e2 => e[e2].includes(this.filterValue)));
+      this.filteredItems = this.dataTable.filter(e => keys.some(e2 => typeof e[e2] === 'string' ? e[e2].includes(this.filterValue) : undefined));
     }else{
       this.filteredItems = this.dataTable;
     }
