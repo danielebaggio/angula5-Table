@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import {Angular5TableModule} from './Angular5-Table/angular5-table.module';
+import {Angular5TableModule} from 'angular5-table';
 
 @NgModule({
   declarations: [

@@ -21,7 +21,7 @@ If your want use npm for install bootsrap use:
 ```javascript
 npm install bootstrap@4.0.0 font-awesome@4.7.0
 
-and set the scrip into angular-cli.json
+and set the script into angular-cli.json
 
 "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -33,9 +33,7 @@ This component require the css link and the font-awesome link of bootstrap 4. Yo
 
 Click [Here](https://getbootstrap.com/docs/4.1/getting-started/introduction/) for visit the bootstrap site and copy the cdn file.
 
-
-
-### bootstrap css and font-awesome link
+### bootstrap css and font-awesome link **(recommanded)**
 
 ```html
 <link rel="stylesheet"
@@ -102,12 +100,12 @@ import {Angular5TableModule} from 'angular5-table';
     </tr>
 </table>
 
-The option attribute is an array of object. The object contains this keys:
+The option attribute is an array of object. The object must contain the following keys:
 
 * Name, that specific the name of the element
 * type, that specific the type of the element
-* class, for assign a specific style
-* url, for pass the icon url
+* class, to assign a specific style
+* url, to pass the URL of the icon, which must be placed in the assets folder that is located inside the src folder (src/assets/..yourImages)
 
 ``` javascript
 this.options = [

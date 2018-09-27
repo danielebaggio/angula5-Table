@@ -17,25 +17,24 @@ export class AppComponent {
     this.useFunction = this.functionChild.bind(this);
   }
 
-
   getDataItemsTable(){
     this.data = [
-      {name: 'test1', description: 'test1', country: 'img-table', age: ''},
-      {name: 'test2', description: 'test2', country: 'btn-table', age: ''},
-      {name: 'test3', description: 'test3', country: 'btn-table', age: ''},
-      {name: 'test4', description: 'test4', country: 'form-control', age: ''},
-      {name: 'test5', description: 'test5', country: 'img-table', age: ''},
-      {name: 'test6', description: 'test6', country: 'btn-table', age: ''},
-      {name: 'test7', description: 'test7', country: 'btn-table', age: ''},
-      {name: 'test8', description: 'test8', country: 'form-control', age: ''},
-      {name: 'test9', description: 'test9', country: 'img-table', age: ''},
-      {name: 'test10', description: 'test10', country: 'btn-table', age: ''},
-      {name: 'test11', description: 'test11', country: 'btn-table', age: ''},
-      {name: 'test12', description: 'test12', country: 'form-control', age: ''},
-      {name: 'test13', description: 'test13', country: 'img-table', age: ''},
-      {name: 'test14', description: 'test14', country: 'btn-table', age: ''},
-      {name: 'test15', description: 'test15', country: 'btn-table', age: ''},
-      {name: 'test16', description: 'test16', country: 'form-control', age: ''}
+      {id:1,name: 'test1', description: 'test1', country: 'img-table', age: ''},
+      {id:2,name: 'test2', description: 'test2', country: 'btn-table', age: ''},
+      {id:3,name: 'test3', description: 'test3', country: 'btn-table', age: ''},
+      {id:4,name: 'test4', description: 'test4', country: 'form-control', age: ''},
+      {id:5,name: 'test5', description: 'test5', country: 'img-table', age: ''},
+      {id:6,name: 'test6', description: 'test6', country: 'btn-table', age: ''},
+      {id:7,name: 'test7', description: 'test7', country: 'btn-table', age: ''},
+      {id:8,name: 'test8', description: 'test8', country: 'form-control', age: ''},
+      {id:9,name: 'test9', description: 'test9', country: 'img-table', age: ''},
+      {id:10,name: 'test10', description: 'test10', country: 'btn-table', age: ''},
+      {id:11,name: 'test11', description: 'test11', country: 'btn-table', age: ''},
+      {id:12,name: 'test12', description: 'test12', country: 'form-control', age: ''},
+      {id:13,name: 'test13', description: 'test13', country: 'img-table', age: ''},
+      {id:14,name: 'test14', description: 'test14', country: 'btn-table', age: ''},
+      {id:15,name: 'test15', description: 'test15', country: 'btn-table', age: ''},
+      {id:16,name: 'test16', description: 'test16', country: 'form-control', age: ''}
     ]
     this.data.length = 10;
   }
